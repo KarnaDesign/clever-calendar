@@ -1,0 +1,31 @@
+.flap {
+	border: 1px solid #f2f0d8;
+	width: 10rem;
+	height: 10rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	p {
+		font-size: 0.9rem;
+		text-align: center;
+	}
+	.foregroundFlap {
+		background-color: #667432;
+		width: 10rem;
+		height: 10rem;
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&.open {
+			top: -10rem;
+			transition: 0.5s;
+		}
+		p {
+			font-size: 2rem;
+		}
+	}
+}
