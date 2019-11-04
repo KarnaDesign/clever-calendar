@@ -1,5 +1,5 @@
 .flap {
-	border: 1px solid #f2f0d8;
+	border: 1px solid #142715;
 	width: 10rem;
 	height: 10rem;
 	position: relative;
@@ -8,12 +8,13 @@
 	align-items: center;
 
 	p {
-		font-size: 0.9rem;
+        font-size: 0.7rem;
+        font-style: italic;
 		text-align: center;
 		padding: 0 1rem;
 	}
 	.foregroundFlap {
-		background-color: #667432;
+		background-color: #A11D21;
 		width: 10rem;
 		height: 10rem;
 		position: absolute;
@@ -28,6 +29,7 @@
 		}
 		p {
             font-size: 2.5rem;
+            font-color: #142715;
             font-weight: bold;
             font-family: 'Mountains of Christmas', cursive
 		}
