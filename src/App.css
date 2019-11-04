@@ -1,6 +1,6 @@
 .App {
+  background-color: #f2f0d8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem 0;
 }
